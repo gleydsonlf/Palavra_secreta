@@ -120,6 +120,10 @@ function App() {
       // add score
       setScore((actualScore) => (actualScore += 100));
 
+      // Tentativas
+      setGuesses((actualGuesses) => (actualGuesses = guessesQty))
+      
+
       // restart game
       startGame();
     }
